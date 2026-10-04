@@ -1,0 +1,24 @@
+[project]
+name = "think-stats"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "acsiuc", email = "florinaxiuc22@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "empiricaldist>=0.10.0",
+    "jupyter>=1.1.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "statadict>=1.1.0",
+    "statsmodels>=0.15.0",
+]
+
+[project.scripts]
+think-stats = "think_stats:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

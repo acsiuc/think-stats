@@ -1,0 +1,5 @@
+*.dat.gz
+*.dct
+thinkstats.py
+__pycache__/ 
+.venv/
